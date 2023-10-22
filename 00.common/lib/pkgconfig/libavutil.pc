@@ -1,0 +1,14 @@
+prefix=/Users/zhengdongqi/N.Nick/practices/streaming-media-practice/00.common/
+exec_prefix=${prefix}
+libdir=/Users/zhengdongqi/N.Nick/practices/streaming-media-practice/00.common//lib
+includedir=/Users/zhengdongqi/N.Nick/practices/streaming-media-practice/00.common//include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.51.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm -framework VideoToolbox -framework CoreFoundation -framework CoreMedia -framework CoreVideo -framework CoreServices
+Cflags: -I${includedir}

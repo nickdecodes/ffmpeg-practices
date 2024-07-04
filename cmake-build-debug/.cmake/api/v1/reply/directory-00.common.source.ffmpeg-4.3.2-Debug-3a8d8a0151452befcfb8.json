@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "00.common/source/ffmpeg-4.3.2",
+		"source" : "00.common/source/ffmpeg-4.3.2"
+	}
+}

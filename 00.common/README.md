@@ -31,7 +31,7 @@ sudo make install
 但是在使用时发现命令找不到，可能是没有添加paath路径
 # 1.修改系统环境变量
 sudo vim /etc/profile 文件最后加上
-export PATH="/usr/local/ffpeg/bin:$PATH"
+export PATH="/usr/local/ffmpeg/bin:$PATH"
 # 2.sudo vim /etc/ld.so.conf 文件后加上
 /usr/local/ffmpeg/lib
 再执行 sudo ldconfig
@@ -70,7 +70,7 @@ sudo make install
 https://sourceforge.net/projects/lame/, 然后编译安装
 tar zxf lame-3.100.tar.gz
 cd lame-3.100/
-./configure --prefix=/usr/localffmpeg --enable-shared
+./configure --prefix=/usr/local/ffmpeg --enable-shared
 make -j8
 sudo make install
 # 运行ffmpeg配置命令

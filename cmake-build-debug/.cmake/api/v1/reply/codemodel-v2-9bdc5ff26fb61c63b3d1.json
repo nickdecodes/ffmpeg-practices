@@ -1,0 +1,1167 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "00.common",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"jsonFile" : "directory-00.common-Debug-f821312541cd7848922c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "00.common"
+				},
+				{
+					"build" : "00.common/source/ffmpeg-4.3.2",
+					"jsonFile" : "directory-00.common.source.ffmpeg-4.3.2-Debug-3a8d8a0151452befcfb8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "00.common/source/ffmpeg-4.3.2",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "00.common/source/SDL-release-2.26.3",
+					"jsonFile" : "directory-00.common.source.SDL-release-2.26.3-Debug-532710d8de0132659290.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "00.common/source/SDL-release-2.26.3",
+					"targetIndexes" : 
+					[
+						27,
+						28,
+						29,
+						30,
+						32,
+						33
+					]
+				},
+				{
+					"build" : "01.av_log",
+					"jsonFile" : "directory-01.av_log-Debug-3d318c534b473af2ead7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "01.av_log",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "02.print_metadata",
+					"jsonFile" : "directory-02.print_metadata-Debug-1f24554212c21ce86c91.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "02.print_metadata",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "03.demux_audio_to_aac",
+					"jsonFile" : "directory-03.demux_audio_to_aac-Debug-cd7d0377306f4fcb482c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "03.demux_audio_to_aac",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "04.demux_video_to_h264",
+					"jsonFile" : "directory-04.demux_video_to_h264-Debug-6c93266c6de4fd285568.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "04.demux_video_to_h264",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "05.remux_mp4_to_flv",
+					"jsonFile" : "directory-05.remux_mp4_to_flv-Debug-29efbf58718194c4f654.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "05.remux_mp4_to_flv",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "06.time_stamp",
+					"jsonFile" : "directory-06.time_stamp-Debug-3a8276a8141802ba21c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "06.time_stamp",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "07.cut_stream",
+					"jsonFile" : "directory-07.cut_stream-Debug-68dad1f85f0edbf82757.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "07.cut_stream",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "08.decode_video_to_yuv",
+					"jsonFile" : "directory-08.decode_video_to_yuv-Debug-a3a70a4d5037f1212f4e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "08.decode_video_to_yuv",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "09.decode_video_scale_to_yuv",
+					"jsonFile" : "directory-09.decode_video_scale_to_yuv-Debug-86b6831ffad255e2ebfb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "09.decode_video_scale_to_yuv",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "10.decode_video_scale_to_rgb",
+					"jsonFile" : "directory-10.decode_video_scale_to_rgb-Debug-1d45cdc3cf197cdced02.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "10.decode_video_scale_to_rgb",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "11.decode_video_scale_save_to_bmp",
+					"jsonFile" : "directory-11.decode_video_scale_save_to_bmp-Debug-ab3f5b1ef61d8c8005a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "11.decode_video_scale_save_to_bmp",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "12.encode_video_yuv_to_h264",
+					"jsonFile" : "directory-12.encode_video_yuv_to_h264-Debug-6f94f95a283f32ce5490.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 15,
+					"source" : "12.encode_video_yuv_to_h264",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "13.decode_audio_aac_to_pcm",
+					"jsonFile" : "directory-13.decode_audio_aac_to_pcm-Debug-145bd1368d7261961cf4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "13.decode_audio_aac_to_pcm",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "14.encode_audio_pcm_to_aac",
+					"jsonFile" : "directory-14.encode_audio_pcm_to_aac-Debug-a899faf36243039e4994.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 17,
+					"source" : "14.encode_audio_pcm_to_aac",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "15.capture_video_to_origin",
+					"jsonFile" : "directory-15.capture_video_to_origin-Debug-ed1f6e6628b190680989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 18,
+					"source" : "15.capture_video_to_origin",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "16.capture_video_to_yuv420",
+					"jsonFile" : "directory-16.capture_video_to_yuv420-Debug-98a4e785b9e386eda4cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 19,
+					"source" : "16.capture_video_to_yuv420",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "17.capture_audio_to_pcm",
+					"jsonFile" : "directory-17.capture_audio_to_pcm-Debug-638ef15a654585dc342a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 20,
+					"source" : "17.capture_audio_to_pcm",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "18.sdl_display_example",
+					"jsonFile" : "directory-18.sdl_display_example-Debug-3e675b3fbec8f7876407.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 21,
+					"source" : "18.sdl_display_example",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "19.sdl_display_bmp",
+					"jsonFile" : "directory-19.sdl_display_bmp-Debug-a200024c4bc674a7a895.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 22,
+					"source" : "19.sdl_display_bmp",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "20.sdl_display_by_texture",
+					"jsonFile" : "directory-20.sdl_display_by_texture-Debug-539b4e6ef6cdc562cd75.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 23,
+					"source" : "20.sdl_display_by_texture",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "21.sdl_display_yuv",
+					"jsonFile" : "directory-21.sdl_display_yuv-Debug-751213061e456e7c5842.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 24,
+					"source" : "21.sdl_display_yuv",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "22.sdl_display_pcm",
+					"jsonFile" : "directory-22.sdl_display_pcm-Debug-e9f1dd7a730a4d8c3d0f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 25,
+					"source" : "22.sdl_display_pcm",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "23.audio_record_and_resample",
+					"jsonFile" : "directory-23.audio_record_and_resample-Debug-50ee4d530916a35b53ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 26,
+					"source" : "23.audio_record_and_resample",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "24.capture_video_to_nv12",
+					"jsonFile" : "directory-24.capture_video_to_nv12-Debug-52e2965500cfc1b3c502.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 27,
+					"source" : "24.capture_video_to_nv12",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "25.capture_audio_to_aac_and_encode",
+					"jsonFile" : "directory-25.capture_audio_to_aac_and_encode-Debug-e8686617bb9590138e15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 28,
+					"source" : "25.capture_audio_to_aac_and_encode",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "26.capture_video_to_nv12_and_encode",
+					"jsonFile" : "directory-26.capture_video_to_nv12_and_encode-Debug-e0f4b960efa448af7e71.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 29,
+					"source" : "26.capture_video_to_nv12_and_encode",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "27.rtmp_push_stream",
+					"jsonFile" : "directory-27.rtmp_push_stream-Debug-cb0dba2445f7ad712cea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 30,
+					"source" : "27.rtmp_push_stream",
+					"targetIndexes" : 
+					[
+						26
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "streaming_media_practice"
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "common",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "ffmpeg-4.3.2",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "SDL2",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						27,
+						28,
+						29,
+						30,
+						32,
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "01.av_log",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "02.print_metadata",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "03.demux_audio_to_aac",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "04.demux_video_to_h264",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "05.remux_mp4_to_flv",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "06.time_stamp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "07.cut_stream",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "08.decode_video_to_yuv",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "09.decode_video_scale_to_yuv",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "10.decode_video_scale_to_rgb",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "11.decode_video_scale_save_to_bmp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "12.encode_video_yuv_to_h264",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "13.decode_audio_aac_to_pcm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "14.encode_audio_pcm_to_aac",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "15.capture_video_to_origin",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "16.capture_video_to_yuv420",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "17.capture_audio_to_pcm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "18.sdl_display_example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "19.sdl_display_bmp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "20.sdl_display_by_texture",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "21.sdl_display_yuv",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "22.sdl_display_pcm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "23.audio_record_and_resample",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "24.capture_video_to_nv12",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						28
+					],
+					"name" : "25.capture_audio_to_aac_and_encode",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29
+					],
+					"name" : "26.capture_video_to_nv12_and_encode",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						30
+					],
+					"name" : "27.rtmp_push_stream",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "01.av_log::@d735b9ea20c2ce8d2b58",
+					"jsonFile" : "target-01.av_log-Debug-404e0748ed7336f15f5b.json",
+					"name" : "01.av_log",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "02.print_metadata::@5efb24afc7a848208d77",
+					"jsonFile" : "target-02.print_metadata-Debug-47e24eb741a5ae5f1757.json",
+					"name" : "02.print_metadata",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "03.demux_audio_to_aac::@12e80e6d604928900fc7",
+					"jsonFile" : "target-03.demux_audio_to_aac-Debug-fff0a6a874b8ec73064e.json",
+					"name" : "03.demux_audio_to_aac",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "04.demux_video_to_h264::@6633314a8e1f1eaeb5b7",
+					"jsonFile" : "target-04.demux_video_to_h264-Debug-8c258d61230cb90aca80.json",
+					"name" : "04.demux_video_to_h264",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "05.remux_mp4_to_flv::@a562c1bb9d2403ef5804",
+					"jsonFile" : "target-05.remux_mp4_to_flv-Debug-0256f445bf0b7e11866b.json",
+					"name" : "05.remux_mp4_to_flv",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "06.time_stamp::@3afa3dc88afdc0653052",
+					"jsonFile" : "target-06.time_stamp-Debug-120fc89805a0ca2b670d.json",
+					"name" : "06.time_stamp",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "07.cut_stream::@dc944fd744aac184047d",
+					"jsonFile" : "target-07.cut_stream-Debug-e7ebd1f0ab3fc8bcd251.json",
+					"name" : "07.cut_stream",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "08.decode_video_to_yuv::@77f015b489869d059ce3",
+					"jsonFile" : "target-08.decode_video_to_yuv-Debug-091d4ff3d97f4138481b.json",
+					"name" : "08.decode_video_to_yuv",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "09.decode_video_scale_to_yuv::@86d5aba0551dff61dcdb",
+					"jsonFile" : "target-09.decode_video_scale_to_yuv-Debug-14286bde9a5654ebbfbc.json",
+					"name" : "09.decode_video_scale_to_yuv",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "10.decode_video_scale_to_rgb::@76649e270edc40bd5ad1",
+					"jsonFile" : "target-10.decode_video_scale_to_rgb-Debug-1713e1c004aa6cee3f67.json",
+					"name" : "10.decode_video_scale_to_rgb",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "11.decode_video_scale_save_to_bmp::@97d7961c8591c0f3c59e",
+					"jsonFile" : "target-11.decode_video_scale_save_to_bmp-Debug-059cab84bb212e4dfbbd.json",
+					"name" : "11.decode_video_scale_save_to_bmp",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "12.encode_video_yuv_to_h264::@139d7c0883d41f81386c",
+					"jsonFile" : "target-12.encode_video_yuv_to_h264-Debug-977af5706394cee15a42.json",
+					"name" : "12.encode_video_yuv_to_h264",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "13.decode_audio_aac_to_pcm::@3d65938c5f599299fd15",
+					"jsonFile" : "target-13.decode_audio_aac_to_pcm-Debug-023f1dfc94a5e5702561.json",
+					"name" : "13.decode_audio_aac_to_pcm",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "14.encode_audio_pcm_to_aac::@f35caf39b570016eb097",
+					"jsonFile" : "target-14.encode_audio_pcm_to_aac-Debug-18590832a6c91e685253.json",
+					"name" : "14.encode_audio_pcm_to_aac",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "15.capture_video_to_origin::@d8e0646a36d55faf3e95",
+					"jsonFile" : "target-15.capture_video_to_origin-Debug-4bb3b6f6f2a245be4d47.json",
+					"name" : "15.capture_video_to_origin",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "16.capture_video_to_yuv420::@c8dd97a0745c651992b6",
+					"jsonFile" : "target-16.capture_video_to_yuv420-Debug-ad38ce68d0b8d70f3f09.json",
+					"name" : "16.capture_video_to_yuv420",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "17.capture_audio_to_pcm::@faa9767d4f8a4cd869cc",
+					"jsonFile" : "target-17.capture_audio_to_pcm-Debug-5833aa0370a009bd9926.json",
+					"name" : "17.capture_audio_to_pcm",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "18.sdl_display_example::@6771624ec0c4a9da8be8",
+					"jsonFile" : "target-18.sdl_display_example-Debug-de6acbed7414448620d6.json",
+					"name" : "18.sdl_display_example",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "19.sdl_display_bmp::@c67af792a6575e7a89d8",
+					"jsonFile" : "target-19.sdl_display_bmp-Debug-2dc8e5c532575ec4915c.json",
+					"name" : "19.sdl_display_bmp",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "20.sdl_display_by_texture::@92533f313c9252aed88e",
+					"jsonFile" : "target-20.sdl_display_by_texture-Debug-f9b6361082a4a34bbc6c.json",
+					"name" : "20.sdl_display_by_texture",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "21.sdl_display_yuv::@cfc24ca177eca882bef7",
+					"jsonFile" : "target-21.sdl_display_yuv-Debug-eee042c755155050544d.json",
+					"name" : "21.sdl_display_yuv",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "22.sdl_display_pcm::@3e9cc3a2b67b99a63110",
+					"jsonFile" : "target-22.sdl_display_pcm-Debug-b15006197d08f2bdec8c.json",
+					"name" : "22.sdl_display_pcm",
+					"projectIndex" : 25
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "23.audio_record_and_resample::@351a1ff524ed49696473",
+					"jsonFile" : "target-23.audio_record_and_resample-Debug-6c33413eb0bb589c77f4.json",
+					"name" : "23.audio_record_and_resample",
+					"projectIndex" : 26
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "24.capture_video_to_nv12::@b45bf4f5ad6ae3c962d6",
+					"jsonFile" : "target-24.capture_video_to_nv12-Debug-73fe54672e0b7f7d7ee2.json",
+					"name" : "24.capture_video_to_nv12",
+					"projectIndex" : 27
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "25.capture_audio_to_aac_and_encode::@5bb20ece1ddda2c0d724",
+					"jsonFile" : "target-25.capture_audio_to_aac_and_encode-Debug-867128add4e69860406d.json",
+					"name" : "25.capture_audio_to_aac_and_encode",
+					"projectIndex" : 28
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "26.capture_video_to_nv12_and_encode::@3f5902913373c19de2a6",
+					"jsonFile" : "target-26.capture_video_to_nv12_and_encode-Debug-d7406db832ec47e729ab.json",
+					"name" : "26.capture_video_to_nv12_and_encode",
+					"projectIndex" : 29
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "27.rtmp_push_stream::@3b3e492e5807fc9b5542",
+					"jsonFile" : "target-27.rtmp_push_stream-Debug-78b410eeaea155251680.json",
+					"name" : "27.rtmp_push_stream",
+					"projectIndex" : 30
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "SDL2::@486ab5aedd7d391cb824",
+					"jsonFile" : "target-SDL2-Debug-105cdc3e9a183b48e6a9.json",
+					"name" : "SDL2",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "SDL2-static::@486ab5aedd7d391cb824",
+					"jsonFile" : "target-SDL2-static-Debug-f041c96be40ff166864b.json",
+					"name" : "SDL2-static",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "SDL2_test::@486ab5aedd7d391cb824",
+					"jsonFile" : "target-SDL2_test-Debug-0fd84e361351d407c5de.json",
+					"name" : "SDL2_test",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "SDL2main::@486ab5aedd7d391cb824",
+					"jsonFile" : "target-SDL2main-Debug-c57c9bb87ae975034c3f.json",
+					"name" : "SDL2main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ffmpeg-4.3.2::@7721c9d0df6b40730c18",
+					"jsonFile" : "target-ffmpeg-4.3.2-Debug-3739c59c275ae7a9796f.json",
+					"name" : "ffmpeg-4.3.2",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sdl_headers_copy::@486ab5aedd7d391cb824",
+					"jsonFile" : "target-sdl_headers_copy-Debug-920476a93bfebc791cc6.json",
+					"name" : "sdl_headers_copy",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uninstall::@486ab5aedd7d391cb824",
+					"jsonFile" : "target-uninstall-Debug-6b91a3a7d6b107101962.json",
+					"name" : "uninstall",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/zhengdongqi/N.Nick/ffmpeg-practices/cmake-build-debug",
+		"source" : "/Users/zhengdongqi/N.Nick/ffmpeg-practices"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

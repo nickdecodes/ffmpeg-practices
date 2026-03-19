@@ -1,0 +1,2 @@
+add_executable(09_decode_video_frame main.cpp)
+target_link_libraries(09_decode_video_frame avutil avformat avcodec swscale)

@@ -1,0 +1,2 @@
+add_executable(23_demux_video_raw main.cpp)
+target_link_libraries(23_demux_video_raw avutil avformat avcodec)

@@ -1,0 +1,2 @@
+add_executable(06_demux_video_annexb main.cpp)
+target_link_libraries(06_demux_video_annexb avutil avformat avcodec)

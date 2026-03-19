@@ -1,0 +1,12 @@
+find_package(PkgConfig QUIET)
+if(PKG_CONFIG_FOUND)
+    pkg_check_modules(SDL2 sdl2)
+endif()
+
+if(SDL2_FOUND)
+    add_executable(25_mini_player main.cpp)
+    target_include_directories(25_mini_player PRIVATE ${SDL2_INCLUDE_DIRS})
+    target_link_libraries(25_mini_player avutil avformat avcodec swscale ${SDL2_LIBRARIES})
+else()
+    message(STATUS "SDL2 未找到, 跳过 25.mini_player (安装: brew install sdl2)")
+endif()

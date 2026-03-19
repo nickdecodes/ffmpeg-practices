@@ -1,0 +1,2 @@
+add_executable(11_decode_audio_pcm main.cpp)
+target_link_libraries(11_decode_audio_pcm avutil avformat avcodec)

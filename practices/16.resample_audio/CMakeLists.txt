@@ -1,0 +1,2 @@
+add_executable(16_resample_audio main.cpp)
+target_link_libraries(16_resample_audio avutil avformat avcodec swresample)

@@ -1,0 +1,2 @@
+add_executable(10_decode_video_yuv main.cpp)
+target_link_libraries(10_decode_video_yuv avutil avformat avcodec)

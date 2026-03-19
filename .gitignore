@@ -30,3 +30,26 @@
 *.exe
 *.out
 *.app
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Build
+build/
+cmake-build-*/
+
+# FFmpeg 编译产物 (由 build.sh 生成)
+practices/00.common/bin/
+practices/00.common/lib/
+practices/00.common/include/
+practices/00.common/share/
+practices/00.common/source/
+practices/00.common/var/
+practices/00.common/etc/
+
+# 测试素材
+practices/test_media/

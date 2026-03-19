@@ -252,7 +252,7 @@ export default function DetailPanel({ node, onClose }: DetailPanelProps) {
               📂 对应练习代码
             </div>
             <a
-              href={`https://github.com/user/ffmpeg-practices/tree/main/practices/${PRACTICE_NAMES[d.practiceRef]}`}
+              href={`https://github.com/nickdecodes/ffmpeg-practices/tree/main/practices/${PRACTICE_NAMES[d.practiceRef]}`}
               target="_blank"
               rel="noopener noreferrer"
               style={{ fontSize: 13, color: '#1976d2', textDecoration: 'none' }}
